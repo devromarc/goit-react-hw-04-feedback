@@ -1,0 +1,26 @@
+.container {
+  width: 400px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.animateButtons {
+  text-transform: uppercase;
+  background-color: #af8f6f;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 1s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.animateButtons:hover {
+  background-color: #74512d;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
